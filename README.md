@@ -39,4 +39,4 @@
  17. Utilizar json para transmitir y recibir información. 
  18. **Join** permite convertir un array en un string, mientras que **concat** permite añadir un nuevo elemento a un array.
  19. Uso de console.time('etiqueta') y un console.timeEnd('etiqueta') para pruebas de rendimiento.
- 20. Minificar el código. Por ejemplo usando [jscompress.com](jscompress.com)
+ 20. Minificar el código. Por ejemplo usando [jscompress.com](http://jscompress.com)
