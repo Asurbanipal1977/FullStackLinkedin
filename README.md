@@ -32,3 +32,11 @@
     var lista = ['banana','naranja'];
  ```
  12. El formato de declaración del nombre de variables es Camel Case y Snake Case.
+ 13. Se recomienda no usar el evento load del window y, en su lugar, poner el código javascript abajo, para así tener todo el DOM cargado.
+ 14. Usar archivos separados para los js.
+ 15. Usar funciones para evitar la duplicidad.
+ 16. Añadir el evento en tiempo de ejecución y no en la página HTML.
+ 17. Utilizar json para transmitir y recibir información. 
+ 18. **Join** permite convertir un array en un string, mientras que **concat** permite añadir un nuevo elemento a un array.
+ 19. Uso de console.time('etiqueta') y un console.timeEnd('etiqueta') para pruebas de rendimiento.
+ 20. Minificar el código. Por ejemplo usando [jscompress.com](jscompress.com)
