@@ -40,3 +40,7 @@
  18. **Join** permite convertir un array en un string, mientras que **concat** permite añadir un nuevo elemento a un array.
  19. Uso de console.time('etiqueta') y un console.timeEnd('etiqueta') para pruebas de rendimiento.
  20. Minificar y ofuscar el código. Por ejemplo, usando [jscompress.com](http://jscompress.com) y [javascriptobfuscator.com](https://javascriptobfuscator.com/Javascript-Obfuscator.aspx)
+ 21. Uso del servicio [jshint](jshint.com) para validar el código.
+ 22. Validar la ejecución correcta mediante el uso de [mochajs](mochajs.org). Se puede instalar con el comando npm
+
+
