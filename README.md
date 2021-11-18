@@ -47,6 +47,22 @@
   - Los js externos que queramos usar debemos exportarlos en el fichero js: module.exports
   - Ejecutar la prueba desde línea de comandos mediante el comando: mocha.
 
+### 2. EXPRESIONES REGULARES
+1. Se declaran con new RegExp() o con /expresion/
+2. Se evaluan con .test(texto a evaluar), que devuelve un true o false.
+3. Para evaluar si existe alguno de los caracteres, se usan los corchetes. Ej: /[012345]/ buscará que exista un 0,1,2,3,4 o 5 en la cadena a evaluar. También se puede usar rangos, como A-Z
+4. Se pueden usar atajos para hacer mas cortas las expresiones regulares. Ej: \d es digito, \w es letra o número
+5. La negación de la expresión regular se realiza con el carácter ^
+6. Caracteres especiales para repetir. + es para 1 o mas veces y el * es para 0 ó mas veces.
+7. El carácter ? indica la opcionalidad del carácter.
+8. Para el conteo de caracteres se utiliza el formato {m,n}.
+9. Con el operador i estaremos indicando que la expresión regular no es case sensitive
+10. Con los paréntesis agrupamos expresiones regulares
+11. El método exec permite obtener mas información, ya que devuelve un objeto con el índice, el input o entrada encontrada, etc.
+12. El método match es parecido al anterior, pero se aplica sobre una cadena de texto y es la expresión regular la que se pasa como parámetro
+13. Para limitar o forzar que una expresión regular se cumpla se usa \b al principio y al final de lo que se quiera delimitar.
+14. Para usar patrones auxiliares se usa el carácter pipe |.
+
 
 
 
