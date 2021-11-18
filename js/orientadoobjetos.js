@@ -1,5 +1,3 @@
-"use strict"
-
 class Producto {
     constructor(numSerie){
         this.numSerie = numSerie;
@@ -52,4 +50,6 @@ class Productos {
     }
 }
 
-module.exports = {Productos, Producto, Pantalla}
+
+if (typeof module !== 'undefined')
+    module.exports = {Productos, Producto, Pantalla}

@@ -12,11 +12,23 @@
         productos.add(pantalla1);
         var pantalla2 = new Pantalla (1235,"LG","Plasma",43);
         productos.add(pantalla2);
+        var isValidPhone = function () {
+            var phone = "35818XXXXX";
+            return /(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$/.test(phone)
+        }
 
         pantalla1.encendido();
         pantalla1.info();
         pantalla2.info();
         console.log(productos.list().length);
+
+
+        var expresionInicio = /^Any.*evaluation$/;
+        console.log(expresionInicio.test("Any string for evaluation"));
+
+        console.log(isValidPhone());
+
+        console.log("Anly string for evanluation".match(expresionInicio));
     </script>
 </head>
 <body>
