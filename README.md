@@ -44,7 +44,14 @@
  22. Validar la ejecución correcta mediante el uso de [mochajs](http://mochajs.org). Se puede instalar con el comando npm. Los pasos para usar mocha:
   - npm install --global mocha
   - Crear carpeta test y dentro colocar todos los js que queramos usar.
-  - Los js externos que queramos usar debemos exportarlos en el fichero js: module.exports
+  ```
+      const assert = require("assert");
+      const objetosPrueba = require("../js/orientadoobjetos.js");
+  ```
+  - Los js externos que queramos usar debemos exportarlos en el fichero js: module.exports.
+  ```
+      module.exports = {Productos, Producto, Pantalla}
+  ```
   - Ejecutar la prueba desde línea de comandos mediante el comando: mocha.
 
 ### 2. EXPRESIONES REGULARES
