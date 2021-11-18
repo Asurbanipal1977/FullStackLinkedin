@@ -41,6 +41,12 @@
  19. Uso de console.time('etiqueta') y un console.timeEnd('etiqueta') para pruebas de rendimiento.
  20. Minificar y ofuscar el código. Por ejemplo, usando [jscompress.com](http://jscompress.com) y [javascriptobfuscator.com](https://javascriptobfuscator.com/Javascript-Obfuscator.aspx)
  21. Uso del servicio [jshint](http://jshint.com) para validar el código.
- 22. Validar la ejecución correcta mediante el uso de [mochajs](http://mochajs.org). Se puede instalar con el comando npm
+ 22. Validar la ejecución correcta mediante el uso de [mochajs](http://mochajs.org). Se puede instalar con el comando npm. Los pasos para usar mocha:
+  - npm install --global mocha
+  - Crear carpeta test y dentro colocar todos los js que queramos usar.
+  - Los js externos que queramos usar debemos exportarlos en el fichero js: module.exports
+  - Ejecutar la prueba desde línea de comandos mediante el comando: mocha.
+
+
 
 
