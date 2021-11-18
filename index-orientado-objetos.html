@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/orientadoobjetos.js"></script>
+    <title>Fetch</title>
+    <script>
+        var productos = new Productos();
+        var pantalla1 = new Pantalla (1234,"Hisense","UHD",50);
+        productos.add(pantalla1);
+        var pantalla2 = new Pantalla (1235,"LG","Plasma",43);
+        productos.add(pantalla2);
+
+        pantalla1.encendido();
+        pantalla1.info();
+        pantalla2.info();
+        console.log(productos.list().length);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

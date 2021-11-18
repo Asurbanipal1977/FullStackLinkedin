@@ -1,0 +1,44 @@
+button{
+    width: 90%;
+    height: 50px;
+    margin: 5px auto;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px blue;
+    cursor: pointer;
+}
+
+#mensajes{
+  width:90%;
+  height:50px;
+  margin: 0 auto;
+  background-color: lightcoral;
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+
+.hide{
+    display:none;
+}
+
+#banderas{
+    margin:10px;
+    border-top: black 1px solid;
+    border-bottom: black 1px solid;
+}
+#banderas>img {
+    padding:2px;
+}
+
+#post{
+    margin: 10px;
+    border-top: black 1px solid;
+    border-bottom: black 1px solid;
+}
+
