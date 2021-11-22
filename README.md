@@ -90,6 +90,7 @@ También se usa **CasperJS**:
 Y finalmente se usa **Gulp**:
 - Automatizador de tareas basado en Javascript.
 - Gestiona diversas tareas y se controla desde consola.
+- Permite generar un servidor.
 
 3.1. Instalación de herramientas:
 - Se tiene que descargar el proyecto de [siddharta1337](https://github.com/siddharta1337/Desarrollo-web-Control-de-calidad-automatizado)
@@ -111,7 +112,6 @@ CASPERJS
 - Para ejecutar el test se usa:
   casperjs test '.\prueba_sintaxis.js'
 - Para controlar una tarea e pasos se utiliza la función .then().
-
 
 ### 4. SCRUM
 - Metodología ágil de desarrollo software que permite reducir los tiempos así como reducir los errores.
