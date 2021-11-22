@@ -1,0 +1,25 @@
+{
+  "name": "pruebas_automatizadas",
+  "version": "1.0.0",
+  "description": "Aprende a usar herramientas automatizadas de control de calidad para tus desarrollos web, para que sean consecuentes y anticiparte a los posibles problemas del código. Automatiza tus pruebas con PhantomJS, CasperJS y Gulp  y aprende a generar informes para asegurarte de que cuando un proyecto web sale a producción cumple todos los requisitos.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csslint-stylish": "0.0.6",
+    "gulp": "^3.9.1",
+    "gulp-casperjs": "0.0.6",
+    "gulp-csslint": "^1.0.0",
+    "gulp-jslint": "^1.0.10",
+    "gulp-phantom": "0.0.6",
+    "gulp-webserver": "^0.9.1",
+    "opn": "^4.0.2",
+    "phantomcss": "^1.1.5"
+  },
+  "devDependencies": {
+    "gulp-csslint": "^1.0.0"
+  }
+}
