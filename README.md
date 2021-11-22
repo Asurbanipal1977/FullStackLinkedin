@@ -157,5 +157,11 @@ CASPERJS
 - Las peticiones deben ser claras, medibles y cuantificables.
 - En la **retrospectiva** los miembros del equipo analizan sus experiencias. Se va a hablar sobre las nuevas habilidades adquiridas, dificultades encontradas y su función no es encontrar culpables.
 
+4.3. HERRAMIENTAS PARA SCRUM
+- Hay que organizar la bitácora, indicando el id, tema, rol, necesidad, resultado, notas, prioridad y status. 
+- Cada capacidad o necesidad de la bitácora, se puede subdividir en varias subtareas.
+- El burndown nos va a permitir comparar el previsto con el avance real.
+- Trello es un herramienta en línea para organizar un proyecto SCRUM.
+
 
 
