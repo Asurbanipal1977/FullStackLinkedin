@@ -104,6 +104,14 @@ PHANTOMJS
 - Se añade la ruta al path.
 - Se ejecuta con: phantomjs archivo.js
 
+CASPERJS
+- Permite realizar pruebas end to end, permite realizar clicks, etc
+- Se instala mendiante el comando: npm install casperjs -g.
+- Casperjs funciona sobre phantomjs.
+- Para ejecutar el test se usa:
+  casperjs test '.\prueba_sintaxis.js'
+- Para controlar una tarea e pasos se utiliza la función .then().
+
 
 ### 4. SCRUM
 - Metodología ágil de desarrollo software que permite reducir los tiempos así como reducir los errores.
