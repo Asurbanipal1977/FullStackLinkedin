@@ -101,5 +101,35 @@ Y finalmente se usa **Gulp**:
 En la definición del servidor, el parámetro liveload a true permite que se recargue el servidor siempre que haya error.
 
 
+### 4. SCRUM
+- Metodología ágil de desarrollo software que permite reducir los tiempos así como reducir los errores.
+- Es un sistema de trabajo en paralelo.
+- Ciclos cortos (de dos a tres semanas).
+- Permite crear productos que se adapten a necesidades cambiantes, es decir, hay mayor adaptación a los cambios imprevistos.
+- Trabajo en equipo.
+- Trabaja con sprint, creando productos funcionales desde el principio.
+
+4.1. Roles
+- Cada miembro tiene una misión.
+- Es importante mantener los procesos.
+- Los roles son: Product Owner, Scrum Master, equipo.
+- Los roles pueden intercambiarse.
+- El product owner:
+  - Aporta las ideas del producto final.
+  - Genera los requisitos en el backlog.
+  - No es el jefe... Su función es suministrar las ideas que van a construir el producto.
+- El equipo:
+  - Son los que llevan a cabo el producto.
+  - Los equipos deben ser pequeños y autosuficientes. Entre 3-5 a 15 personas.
+  - Todos son parte del proceso creativo.
+  - El equipo se enfoca a resultados.
+- El scrumMaster:
+  - Mantiene el flujo de trabajo.
+  - Apoyo del equipo.
+  - Mantiene los procesos.
+  - Gestiona las reuniones diarias.
+  - Tampoco es el jefe.
+
+
 
 
