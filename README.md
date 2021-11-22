@@ -92,7 +92,7 @@ Y finalmente se usa **Gulp**:
 - Gestiona diversas tareas y se controla desde consola.
 
 3.1. Instalación de herramientas:
-- Se tiene que descargar el proyecto de (siddharta1337)[https://github.com/siddharta1337/Desarrollo-web-Control-de-calidad-automatizado]
+- Se tiene que descargar el proyecto de [siddharta1337](https://github.com/siddharta1337/Desarrollo-web-Control-de-calidad-automatizado)
 - Se ejecuta: npm init
 - Se ejecuta: npm install --save gulp gulp-webserver opn
 - En el archivo gulpfile.js se encuentra el código de automatización
