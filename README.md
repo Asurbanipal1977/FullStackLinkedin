@@ -76,6 +76,30 @@
 17. Se puede usar el método **search** de una cadena de texto para buscar patrones dentro de esa cadena. Se para tras encontrar la primera coincidencia y devuelve el índice.
 18. La propiedad lastIndex se puede cambiar y actualizar para que el punto de comienzo de la búsqueda sea otro.
 
+### 3. CONTROL DE CALIDAD
+Una de las herramientas es **PhantomJS**.
+- Es un navegador web.
+- Basado en webkit.
+- Sin interfaz gráfica. Funciona desde consola.
+- Tiene un API de bajo nivel para pruebas.
+
+También se usa **CasperJS**:
+- Conjunto de rutinas enfocado a pruebas
+- Trabaja con el navegador
+
+Y finalmente se usa **Gulp**:
+- Automatizador de tareas basado en Javascript.
+- Gestiona diversas tareas y se controla desde consola.
+
+3.1. Instalación de herramientas:
+- Se tiene que descargar el proyecto de (siddharta1337)[https://github.com/siddharta1337/Desarrollo-web-Control-de-calidad-automatizado]
+- Se ejecuta: npm init
+- Se ejecuta: npm install --save gulp gulp-webserver opn
+- En el archivo gulpfile.js se encuentra el código de automatización
+- El .pipe nos sirve para definir la tarea.
+
+En la definición del servidor, el parámetro liveload a true permite que se recargue el servidor siempre que haya error.
+
 
 
 
