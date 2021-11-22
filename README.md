@@ -109,7 +109,7 @@ En la definición del servidor, el parámetro liveload a true permite que se rec
 - Trabajo en equipo.
 - Trabaja con sprint, creando productos funcionales desde el principio.
 
-4.1. Roles
+3.2. Roles
 - Cada miembro tiene una misión.
 - Es importante mantener los procesos.
 - Los roles son: Product Owner, Scrum Master, equipo.
@@ -130,6 +130,20 @@ En la definición del servidor, el parámetro liveload a true permite que se rec
   - Gestiona las reuniones diarias.
   - Tampoco es el jefe.
 
+3.3. CICLO DE TRABAJO
+- Los miembros del equipo seleccionan las tareas del backlog.
+- Una vez que acaba el desarrollo, el equipo presenta el producto con el product owner y el scrumMaster.
+- Se trabaja en ciclos cortos.
+- La bitácora la realiza el product owner.
+- La bitácora siempre debe redactarse desde el punto de vista del cliente.
+- Solo el dueño de producto puede agregar o quitar tareas de la bitácora.
+- Un sprint es un ciclo de desarrollo de un producto.
+- El scrum diario es uno de los rituales principales de SCRUM. Es una reunión importante, corta(de unos 15 minutos), se realizan de pie y cada miembro del equipo responde a tres preguntas:
+  - ¿Qué hiciste ayer?
+  - ¿Qué vas a hacer hoy?
+  - ¿Hay algún obstáculo para realizarlo? El ScrumMaster deberá resolver estos obstáculos.
+- Las peticiones deben ser claras, medibles y cuantificables.
+- En la **retrospectiva** los miembros del equipo analizan sus experiencias. Se va a hablar sobre las nuevas habilidades adquiridas, dificultades encontradas y su función no es encontrar culpables.
 
 
 
