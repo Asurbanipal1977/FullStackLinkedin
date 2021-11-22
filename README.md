@@ -97,8 +97,12 @@ Y finalmente se usa **Gulp**:
 - Se ejecuta: npm install --save gulp gulp-webserver opn
 - En el archivo gulpfile.js se encuentra el código de automatización
 - El .pipe nos sirve para definir la tarea.
-
 En la definición del servidor, el parámetro liveload a true permite que se recargue el servidor siempre que haya error.
+
+PHANTOMJS
+- Después instalamos el navegador [phantomjs de la ruta](https://phantomjs.org/download.html) 
+- Se añade la ruta al path.
+- Se ejecuta con: phantomjs archivo.js
 
 
 ### 4. SCRUM
@@ -109,7 +113,7 @@ En la definición del servidor, el parámetro liveload a true permite que se rec
 - Trabajo en equipo.
 - Trabaja con sprint, creando productos funcionales desde el principio.
 
-3.2. Roles
+4.1. Roles
 - Cada miembro tiene una misión.
 - Es importante mantener los procesos.
 - Los roles son: Product Owner, Scrum Master, equipo.
@@ -130,7 +134,7 @@ En la definición del servidor, el parámetro liveload a true permite que se rec
   - Gestiona las reuniones diarias.
   - Tampoco es el jefe.
 
-3.3. CICLO DE TRABAJO
+4.2. CICLO DE TRABAJO
 - Los miembros del equipo seleccionan las tareas del backlog.
 - Una vez que acaba el desarrollo, el equipo presenta el producto con el product owner y el scrumMaster.
 - Se trabaja en ciclos cortos.
