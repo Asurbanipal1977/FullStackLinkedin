@@ -86,6 +86,7 @@ Una de las herramientas es **PhantomJS**.
 También se usa **CasperJS**:
 - Conjunto de rutinas enfocado a pruebas
 - Trabaja con el navegador
+- La librería CasperCSS permite hacer un análisis regresivo de los css.
 
 Y finalmente se usa **Gulp**:
 - Automatizador de tareas basado en Javascript.
