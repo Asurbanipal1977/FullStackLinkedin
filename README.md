@@ -86,7 +86,6 @@ Una de las herramientas es **PhantomJS**.
 También se usa **CasperJS**:
 - Conjunto de rutinas enfocado a pruebas
 - Trabaja con el navegador
-- La librería CasperCSS permite hacer un análisis regresivo de los css.
 
 Y finalmente se usa **Gulp**:
 - Automatizador de tareas basado en Javascript.
@@ -100,11 +99,13 @@ Y finalmente se usa **Gulp**:
 - En el archivo gulpfile.js se encuentra el código de automatización
 - El .pipe nos sirve para definir la tarea.
 En la definición del servidor, el parámetro liveload a true permite que se recargue el servidor siempre que haya error.
+- Se ejecuta poniendo gulp.
 
 PHANTOMJS
 - Después instalamos el navegador [phantomjs de la ruta](https://phantomjs.org/download.html) 
 - Se añade la ruta al path.
-- Se ejecuta con: phantomjs archivo.js
+- Se ejecuta con: phantomjs archivo.js.
+- La librería PhantomCSS permite hacer un análisis regresivo de los css.
 
 CASPERJS
 - Permite realizar pruebas end to end, permite realizar clicks, etc
@@ -112,7 +113,7 @@ CASPERJS
 - Casperjs funciona sobre phantomjs.
 - Para ejecutar el test se usa:
   casperjs test '.\prueba_sintaxis.js'
-- Para controlar una tarea e pasos se utiliza la función .then().
+- Para controlar una tarea de varios pasos se utiliza la función .then().
 
 ### 4. SCRUM
 - Metodología ágil de desarrollo software que permite reducir los tiempos así como reducir los errores.
